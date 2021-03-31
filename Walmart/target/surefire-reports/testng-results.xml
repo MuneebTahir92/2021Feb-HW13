@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Walmart Test Script" duration-ms="29500" started-at="2021-03-31T17:05:37 EDT" finished-at="2021-03-31T17:06:07 EDT">
+    <groups>
+    </groups>
+    <test name="Amazon Home" duration-ms="29500" started-at="2021-03-31T17:05:37 EDT" finished-at="2021-03-31T17:06:07 EDT">
+      <class name="landingpage.TestTwo">
+        <test-method status="PASS" signature="open(java.lang.String)[pri:0, instance:landingpage.TestTwo@5ec0a365]" name="open" is-config="true" duration-ms="3449" started-at="2021-03-31T17:05:52 EDT" finished-at="2021-03-31T17:05:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.walmart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:landingpage.TestTwo@5ec0a365]" name="testTwo" duration-ms="15" started-at="2021-03-31T17:05:56 EDT" finished-at="2021-03-31T17:05:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="close()[pri:0, instance:landingpage.TestTwo@5ec0a365]" name="close" is-config="true" duration-ms="171" started-at="2021-03-31T17:05:56 EDT" finished-at="2021-03-31T17:05:56 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- landingpage.TestTwo -->
+      <class name="landingpage.TestOne">
+        <test-method status="PASS" signature="open(java.lang.String)[pri:0, instance:landingpage.TestOne@27c20538]" name="open" is-config="true" duration-ms="9516" started-at="2021-03-31T17:05:37 EDT" finished-at="2021-03-31T17:05:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.walmart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:landingpage.TestOne@27c20538]" name="testOne" duration-ms="4992" started-at="2021-03-31T17:05:47 EDT" finished-at="2021-03-31T17:05:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="close()[pri:0, instance:landingpage.TestOne@27c20538]" name="close" is-config="true" duration-ms="147" started-at="2021-03-31T17:05:52 EDT" finished-at="2021-03-31T17:05:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- landingpage.TestOne -->
+      <class name="landingpage.TestThree">
+        <test-method status="PASS" signature="open(java.lang.String)[pri:0, instance:landingpage.TestThree@4fe3c938]" name="open" is-config="true" duration-ms="4779" started-at="2021-03-31T17:05:56 EDT" finished-at="2021-03-31T17:06:01 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.walmart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="testThree()[pri:0, instance:landingpage.TestThree@4fe3c938]" name="testThree" duration-ms="6213" started-at="2021-03-31T17:06:01 EDT" finished-at="2021-03-31T17:06:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method status="PASS" signature="close()[pri:0, instance:landingpage.TestThree@4fe3c938]" name="close" is-config="true" duration-ms="177" started-at="2021-03-31T17:06:07 EDT" finished-at="2021-03-31T17:06:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- landingpage.TestThree -->
+    </test> <!-- Amazon Home -->
+  </suite> <!-- Walmart Test Script -->
+</testng-results>

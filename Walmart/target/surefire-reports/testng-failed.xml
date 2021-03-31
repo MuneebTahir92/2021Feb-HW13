@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Walmart Test Script]">
+  <parameter name="url" value="https://www.walmart.com/"/>
+  <test thread-count="5" verbose="0" name="Amazon Home(failed)">
+    <classes>
+      <class name="landingpage.TestThree">
+        <methods>
+          <include name="testThree"/>
+          <include name="close"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- landingpage.TestThree -->
+    </classes>
+  </test> <!-- Amazon Home(failed) -->
+</suite> <!-- Failed suite [Walmart Test Script] -->
